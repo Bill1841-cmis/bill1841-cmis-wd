@@ -1,0 +1,10 @@
+ls List contents of a directory
+cd: Go home.
+cd <directory name>
+cd 
+cat 
+gedit
+git clone
+git commit
+git add
+git push 
