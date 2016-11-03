@@ -1,0 +1,29 @@
+1. Go to your email
+2. Find the code for cloning which you sent to your self
+3. Copy that code
+- If you dont have the code 
+- Follow this code
+- git clone --config="http.proxy=http://your-network-username:your-network-password@192.168.2.1:8080" https://github.com/your-github-username/your-github-repository-name.git
+4. When you have that command 
+5. Copy the command into terminal which should succesfully clone your repository
+6. Then type in cd to make sure your at your home
+7. Then type in ls to see what files you have
+8. Find your repository then type in cd <Your repository name>
+9. This should bring you to your repository inside the folder
+10. After this type ls again
+11. Now type in gedit <FileName>.txt
+12. This will bring you into a new file
+13. Type what you need then click save
+14. Make sure your name of the file is right then exit
+15. Next you type in git add <filename>
+16. Then git commit -m "Your commit message"
+17. You could have alot of add and alot of files together
+18. When you have your files dont do git push
+19. This will ask you for your github username
+20. Type in your username
+21. It will ask you for your password
+22. Now type in your password
+23. To double check
+24. Go to the website git hub.com
+25. After entering the password go to your repository
+26. Then you should see where your file that you pushed there
