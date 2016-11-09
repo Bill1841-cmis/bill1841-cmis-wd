@@ -8,3 +8,19 @@ git clone
 git commit
 git add
 git push 
+
+clone
+gedit 
+Save to make sure it goes on the website
+To make an html etc.
+Go to the website find the command python 
+Which then type into console
+Find the website  localhost:8000
+Add slash if u want to find specific folder to show
+go search a website to validate ur code
+TO make sure ur source is right to CTRL U
+If it is ur done when u got everything
+git add
+git commit -m
+git push
+
