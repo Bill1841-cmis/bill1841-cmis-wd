@@ -24,3 +24,11 @@ git add
 git commit -m
 git push
 
+To upload files do sftp bill1841@cmis-hsteacher
+After that answer yes
+Then type in passwords
+Afte that when you are entered
+type in cd public_html
+After that do put _____ ur file name
+
+
