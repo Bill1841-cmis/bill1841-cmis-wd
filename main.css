@@ -1,10 +1,20 @@
-<head>
-<style>
-body {background-color: linen;}
+
+body {
+    background: rgba(243,255,82,1);
+    background: -moz-linear-gradient(left, rgba(243,255,82,1) 0%, rgba(243,255,82,1) 22%, rgba(99,255,100,1) 74%, rgba(82,255,102,1) 80%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,255,82,1)), color-stop(22%, rgba(243,255,82,1)), color-stop(74%, rgba(99,255,100,1)), color-stop(80%, rgba    	  (82,255,102,1)));
+    background: -webkit-linear-gradient(left, rgba(243,255,82,1) 0%, rgba(243,255,82,1) 22%, rgba(99,255,100,1) 74%, rgba(82,255,102,1) 80%);
+    background: -o-linear-gradient(left, rgba(243,255,82,1) 0%, rgba(243,255,82,1) 22%, rgba(99,255,100,1) 74%, rgba(82,255,102,1) 80%);
+    background: -ms-linear-gradient(left, rgba(243,255,82,1) 0%, rgba(243,255,82,1) 22%, rgba(99,255,100,1) 74%, rgba(82,255,102,1) 80%);
+    background: linear-gradient(to right, rgba(243,255,82,1) 0%, rgba(243,255,82,1) 22%, rgba(99,255,100,1) 74%, rgba(82,255,102,1) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3ff52', endColorstr='#52ff66', GradientType=1 );
 
 h1 {
-    color: maroon;
-    margin-left: 40px;
-} 
-</style>
-</head>
+    color: MediumSpringGreen;
+    background-color: LightSkyBlue;
+    font-family: "Arial";
+    font-weight: 200;}
+
+h2 {
+    color: Light 
+
