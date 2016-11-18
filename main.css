@@ -8,13 +8,69 @@ body {
     background: -ms-linear-gradient(left, rgba(243,255,82,1) 0%, rgba(243,255,82,1) 22%, rgba(99,255,100,1) 74%, rgba(82,255,102,1) 80%);
     background: linear-gradient(to right, rgba(243,255,82,1) 0%, rgba(243,255,82,1) 22%, rgba(99,255,100,1) 74%, rgba(82,255,102,1) 80%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3ff52', endColorstr='#52ff66', GradientType=1 );
+}
 
 h1 {
     color: MediumSpringGreen;
-    background-color: LightSkyBlue;
+    background-color:SeaShell;
     font-family: "Arial";
-    font-weight: 200;}
+    font-weight: 200;
+    font-style: Italic; 
+    letter-spacing: 2px;
+    border-style: dashed;
+    border-right: thick dotted;
+    border-left: thick dotted;
+    border-bottom: solid
+    height: 200px;
+    width: 200px;
+    
+}
 
 h2 {
-    color: Light 
+
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-style: Italic;
+    font-weight:200
+    text-decoration: underline;
+}    
+p {
+   text-decoration: overline;
+   text-align: Center;
+   outline: #00FF00 dotted thick;
+   color: SkyBlue;
+   background: SeaShell;
+   font-variant: small-caps;
+   letter-spacing: 3px;
+   border-style:dotted;
+   border-bottom: solid;
+   border-top: dashed;
+   border-bottom-color: #ff0000
+   height: 200px;
+   width: 350px;
+   max-height: 200px;
+   margin: 2cm 4cm 3cm 4cm;
+}
+footer {
+   text-decoration: underline;
+   text-align: Center;
+   color: Green;
+   background: Skyblue;
+   font-variant: small-caps;
+   letter-spacing: 3px;
+   border-style:dashed;
+   border-bottom: solid;
+   border-top: dashed;
+   border-bottom-color: #ff0000
+   height: 200px;
+   width: 350px;
+   max-width: 400px;
+   padding: 2cm 3cm 2cm 4cm;
+
+   
+
+
+    
+     
 
