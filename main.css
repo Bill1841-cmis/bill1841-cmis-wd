@@ -1,13 +1,26 @@
+/*Requirements
+
+Create a new file called "main.css"
+Add a link element to the head of your index.html file
+<link rel="stylesheet" href="main.css" type="text/css">
+Edit the main.css file
+add a declaration for each element in the body of your index.html file.
+add properties to style the background color of each element.
+add properties to style the border of each element.
+add properties to style the font and text of each element.
+Use at least 20 different properties. Include a list of these 20 at the TOP of your main.css file as a css comment.
+Use at least 4 different units to set sizes of various aspects of your webpage.
+Go learn something from 2 classmates; add a comment to your main.css file that describes what you learned.
+View your index.html in the development server.
+Validate your index.html file.
+Validate your main.css file.
+Copy this list of requirements and paste it into the top of your "main.css" file as a css comment. Put an asterisk in front of each one that you did.
+Upload to the production server with sftp.
+View your index.html in the production server.*/
+
 
 body {
-    background: rgba(243,255,82,1);
-    background: -moz-linear-gradient(left, rgba(243,255,82,1) 0%, rgba(243,255,82,1) 22%, rgba(99,255,100,1) 74%, rgba(82,255,102,1) 80%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,255,82,1)), color-stop(22%, rgba(243,255,82,1)), color-stop(74%, rgba(99,255,100,1)), color-stop(80%, rgba    	  (82,255,102,1)));
-    background: -webkit-linear-gradient(left, rgba(243,255,82,1) 0%, rgba(243,255,82,1) 22%, rgba(99,255,100,1) 74%, rgba(82,255,102,1) 80%);
-    background: -o-linear-gradient(left, rgba(243,255,82,1) 0%, rgba(243,255,82,1) 22%, rgba(99,255,100,1) 74%, rgba(82,255,102,1) 80%);
-    background: -ms-linear-gradient(left, rgba(243,255,82,1) 0%, rgba(243,255,82,1) 22%, rgba(99,255,100,1) 74%, rgba(82,255,102,1) 80%);
-    background: linear-gradient(to right, rgba(243,255,82,1) 0%, rgba(243,255,82,1) 22%, rgba(99,255,100,1) 74%, rgba(82,255,102,1) 80%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3ff52', endColorstr='#52ff66', GradientType=1 );
+   background: linear-gradient(to right, #65E95C 0%, #FAF200 100%);
 }
 
 h1 {
@@ -20,24 +33,26 @@ h1 {
     border-style: dashed;
     border-right: thick dotted;
     border-left: thick dotted;
-    border-bottom: solid
+    border-bottom: solid;
     height: 200px;
     width: 200px;
     
 }
 
 h2 {
-
     background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px #48473F;
     font-style: Italic;
-    font-weight:200
+    font-weight:200;
     text-decoration: underline;
 }    
 p {
    text-decoration: overline;
+   opacity: 0.9;
    text-align: Center;
+   text-transform: uppercase;
    outline: #00FF00 dotted thick;
    color: SkyBlue;
    background: SeaShell;
@@ -46,7 +61,7 @@ p {
    border-style:dotted;
    border-bottom: solid;
    border-top: dashed;
-   border-bottom-color: #ff0000
+   border-bottom-color: blue;
    height: 200px;
    width: 350px;
    max-height: 200px;
@@ -62,11 +77,15 @@ footer {
    border-style:dashed;
    border-bottom: solid;
    border-top: dashed;
-   border-bottom-color: #ff0000
+   border-bottom-color: #ff0000;
    height: 200px;
    width: 350px;
    max-width: 400px;
    padding: 2cm 3cm 2cm 4cm;
+   margin: 2cm 4cm 3cm 4cm;
+   box-shadow: 10px 8px 5px #888888;
+}
+
 
    
 
