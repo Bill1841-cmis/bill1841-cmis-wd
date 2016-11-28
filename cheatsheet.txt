@@ -32,3 +32,52 @@ type in cd public_html
 After that do put _____ ur file name
 
 
+
+html{
+	font-size:8pt;
+	background-color:pink;	
+}
+
+body{
+	border-left:red dotted 30px;
+}
+
+header {
+	background-color:lightblue;
+	font-family:arial;
+	text-decoration:underline;
+	border-bottom:red dotted 30px;
+}
+
+main {
+	border:groove 5px yellow;
+}
+
+footer {
+	border-right:500px solid black;
+	border-bottom:1px solid black;
+	font-size:200%;
+
+}
+h1 {
+	font-family:serif;
+	font-size:500%;
+	color:red;
+	border-bottom:solid 5px black;
+}
+h2, h3 {
+	background-color:blue;
+	color:white;
+}
+h3 {
+	font-family:sans-serif;
+}
+h4{
+	border-left:ridge red 30px;
+	border-right:groove red 800px;
+}
+p {
+	color:blue;
+	border-top:dotted 2px green;
+}
+
