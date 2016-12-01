@@ -36,16 +36,13 @@ h1 {
     border-right: thick dotted;
     border-left: thick dotted;
     border-bottom: solid;
-    height: 200px;
+    height: 100px;
     width: 200mm;
     
 }
 
 h2 {
     background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-    text-shadow: 2px 2px #48473F;
     font-style: Italic;
     font-weight:200;
     text-decoration: underline;
@@ -88,6 +85,22 @@ footer {
    box-shadow: 10px 8px 5px #888888;
 }
 
+h1,h2 {
+   background: white; 
+}
+h2 ol {
+   color: Black;
+}
+h2 ul {
+   color:blue;
+}
+nav p {
+    width: 300px;
+    border: 25px solid skyblue;
+    padding: 25px;
+    margin: 25px;
+    height: 25px;
+}
 
    
 
