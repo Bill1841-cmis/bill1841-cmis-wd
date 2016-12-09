@@ -54,5 +54,5 @@ h3 {
 	background-color: white
 }	
 img {
-    opacity: 0.75;
+	border:1px solid red;
 }
